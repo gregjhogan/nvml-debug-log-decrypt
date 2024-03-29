@@ -2,6 +2,8 @@
 The [NVIDIA Management Library (NVML)
 ](https://developer.nvidia.com/nvidia-management-library-nvml) library `libnvidia-ml.so` can generate a debug/trace log file.
 
+Logging is controlled by setting the environment variables `__NVML_DBG_FILE` and `__NVML_DBG_LVL`.
+
 In the log file each byte/character is encrypted by the next pseudorandom number generated with a xorwow random number generator.
 
 This tool can decrypt those log files.

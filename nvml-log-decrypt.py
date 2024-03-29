@@ -2,7 +2,7 @@
 import sys
 
 # example generating log file:
-# __NVML_DBG_FILE=nvml_trace.log __NVML_DBG_LVL=DEBUG nvidia-smi -L
+# __NVML_DBG_FILE=nvml-trace.log __NVML_DBG_LVL=DEBUG nvidia-smi -L
 
 class XorWow:
   def __init__(self, counter, x):
